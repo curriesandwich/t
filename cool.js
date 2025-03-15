@@ -49,11 +49,11 @@ define("ace/theme/tomorrow_night", ["require", "exports", "module", "ace/lib/dom
       .ace-tomorrow_night-theme .ace_meta,
       .ace-tomorrow_night-theme .ace_storage,
       .ace-tomorrow_night-theme .ace_storage.ace_type {
-        color: rgb(255, 179, 142);
+        color: rgb(128, 0, 255);
       }
       
       .ace-tomorrow_night-theme .ace_keyword.ace_operator {
-        color: rgb(255, 179, 142);
+        color: rgb(0, 119, 255);
       }
       
       .ace-tomorrow_night-theme .ace_constant.ace_character,
@@ -62,7 +62,7 @@ define("ace/theme/tomorrow_night", ["require", "exports", "module", "ace/lib/dom
       .ace-tomorrow_night-theme .ace_keyword.ace_other.ace_unit,
       .ace-tomorrow_night-theme .ace_support.ace_constant,
       .ace-tomorrow_night-theme .ace_variable.ace_parameter {
-        color: rgb(57, 57, 57);
+        color: rgb(255, 255, 255);
       }
       
       .ace-tomorrow_night-theme .ace_constant.ace_other {
@@ -70,11 +70,11 @@ define("ace/theme/tomorrow_night", ["require", "exports", "module", "ace/lib/dom
       }
       
       .ace-tomorrow_night-theme .ace_invalid {
-        color: rgb(57, 57, 57);
+        color: rgb(255, 84, 84);
         background-color: transparent;
       }
       .ace-tomorrow_night-theme .ace_invalid.ace_deprecated {
-        color: rgb(57, 57, 57);
+        color: rgb(255, 111, 111);
         background-color: transparent;
       }
       
