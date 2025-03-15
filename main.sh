@@ -6,11 +6,11 @@ main() {
 
     curl -s "https://raw.githubusercontent.com/curriesandwich/t/main/cool.js" -o "theme-tomorrow_night.js"
 
-    IMAGE_URL="${1:-https://your-image.com/background.jpg}"
+    img="${1:-https://your-image.com/background.jpg}"
 
-    sed -i '' "s|https://i.imgur.com/example.jpeg|$IMAGE_URL|g" "theme-tomorrow_night.js"
+    sed -i '' "s|https://i.imgur.com/example.jpeg|$img|g" "theme-tomorrow_night.js"
 
-    echo "Background image updated to $IMAGE_URL"
+    echo "Background image updated to $img"
 }
 
 # Call the function
